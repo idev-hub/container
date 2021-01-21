@@ -1,0 +1,21 @@
+.header-phone:before, .header-geo:before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 0;
+  top: 0;
+  border-radius: 9999px;
+  background: #eadc00 url(../images/phone-ico.svg) no-repeat center center
+}
+
+.header-geo:before {
+  background-image: url(../images/geo-ico.svg)
+}
+
+.header-phone-num {
+  font-weight: bold;
+  font-size: 1em;
+  margin-bottom: 5px;
+  display: block
+}
